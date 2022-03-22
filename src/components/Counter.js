@@ -57,11 +57,12 @@ const [count, setCount] = useState(0);
     /* STEP 4 */
   };
   const decrement = () => {
+    setCount(count - 1)
     /* STEP 5 */
   };
   const reset = () => {
     setCount(0)
-    /* STEP 6 */
+    /* this one was very straight forward!!!! */
   };
 
   const style = {
